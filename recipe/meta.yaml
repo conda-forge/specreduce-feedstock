@@ -1,5 +1,5 @@
 {% set name = "specreduce" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/specreduce-{{ version }}.tar.gz
-  sha256: 849cdd6206a1cc69446e5798127e1b17d27238e0ef112acb57162b4ad29ad024
+  sha256: d347f9bb1d5ef98f3a25c265d7e74af94021f30bc0d388a18fc5bc15fbe5005d
 
 build:
   noarch: python

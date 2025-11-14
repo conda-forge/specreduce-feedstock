@@ -24,7 +24,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
-    - astropy
+    - astropy-base
+    - matplotlib >=3.10
     - scipy
     - specutils >=1.9.1
     - gwcs
